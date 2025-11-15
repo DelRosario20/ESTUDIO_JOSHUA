@@ -1,0 +1,603 @@
+\documentclass[onecolumn,12pt]{article} 
+\usepackage{times,xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+\title{\textbf{PROPUESTA DE ESTUDIO}\\
+\vspace{0.5cm}
+\Large{Cointegración entre Crédito Bancario y PIB Manufacturero en Ecuador: Análisis del Nexo Finanzas-Crecimiento Sectorial (2015-2024)}}
+
+\author{\\
+Estudiante de Economía - UNEMI\\
+\textit{Econometría Aplicada}}
+
+\date{Noviembre 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Tema y Contexto del Estudio}
+
+\subsection{Tema de Investigación}
+El presente estudio propone analizar la relación de equilibrio de largo plazo entre el crédito otorgado por el sistema bancario privado y el crecimiento del sector manufacturero en Ecuador durante el período 2015-2024, aplicando técnicas de cointegración. La investigación busca determinar si existe un vínculo estable entre el desarrollo financiero y la producción industrial del país.
+
+\subsection{Contexto y Justificación}
+El sector manufacturero ecuatoriano representa aproximadamente el 12-14\% del PIB nacional y constituye un pilar fundamental para la diversificación productiva del país. Sin embargo, su desarrollo enfrenta restricciones crediticias significativas que limitan la inversión en capital, tecnología y expansión productiva.
+
+La teoría del desarrollo financiero de Schumpeter (1911) y los modelos de crecimiento endógeno de King y Levine (1993) establecen que el sistema financiero juega un rol crucial en el crecimiento económico a través de: (i) movilización del ahorro hacia inversión productiva, (ii) reducción de costos de información y transacción, (iii) facilitación de la gestión del riesgo, y (iv) promoción de la innovación tecnológica.
+
+En el contexto ecuatoriano, caracterizado por la dolarización desde el año 2000, el crédito bancario se convierte en el principal mecanismo de transmisión de liquidez hacia los sectores productivos, ante la ausencia de política monetaria autónoma.
+
+\section{Marco Referencial Empírico}
+
+\subsection{Artículo Principal de Referencia}
+
+\textbf{Artículo Ancla:} Durusu-Ciftci, D., Ispir, M. S., \& Yetkiner, H. (2017). "Financial development and economic growth: Some theory and more evidence". \textit{Journal of Policy Modeling}, 39(2), 290-306.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.jpolmod.2016.08.001}
+
+Este artículo proporciona el marco metodológico fundamental:
+\begin{itemize}
+    \item Especificación con logaritmos para capturar elasticidades
+    \item Análisis de cointegración para relaciones financieras de largo plazo
+    \item Metodología de raíces unitarias en series financieras
+    \item Diagnóstico completo de modelos con variables crediticias
+\end{itemize}
+
+\subsection{Literatura Complementaria de Soporte (2010-2024)}
+
+\textbf{1. Asteriou, D., \& Spanos, K. (2019).} "The relationship between financial development and economic growth during the recent crisis: Evidence from the EU". \textit{Finance Research Letters}, 28, 238-245.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.frl.2018.05.011}
+\begin{itemize}
+    \item Análisis post-crisis del nexo finanzas-crecimiento
+    \item Metodología de cointegración con quiebres estructurales
+\end{itemize}
+
+\textbf{2. Guru, B. K., \& Yadav, I. S. (2019).} "Financial development and economic growth: panel evidence from BRICS". \textit{Journal of Economics, Finance and Administrative Science}, 24(47), 113-126.\\
+\textbf{DOI:} \url{https://doi.org/10.1108/JEFAS-12-2017-0125}
+\begin{itemize}
+    \item Aplicación en economías emergentes
+    \item Variables de crédito al sector privado
+\end{itemize}
+
+\textbf{3. Tongurai, J., \& Vithessonthi, C. (2018).} "The impact of the banking sector on economic structure and growth". \textit{International Review of Financial Analysis}, 56, 193-207.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.irfa.2018.01.002}
+\begin{itemize}
+    \item Impacto sectorial del desarrollo bancario
+    \item Análisis de transmisión hacia manufactura
+\end{itemize}
+
+\textbf{4. Ibrahim, M., \& Alagidede, P. (2018).} "Effect of financial development on economic growth in sub-Saharan Africa". \textit{Journal of Policy Modeling}, 40(6), 1104-1125.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.jpolmod.2018.08.001}
+\begin{itemize}
+    \item Metodología de cointegración de Johansen
+    \item Pruebas de causalidad de Granger
+\end{itemize}
+
+\textbf{5. Pradhan, R. P., Arvin, M. B., Hall, J. H., \& Bahmani, S. (2014).} "Causal nexus between economic growth, banking sector development, stock market development, and other macroeconomic variables: The case of ASEAN countries". \textit{Review of Financial Economics}, 23(4), 155-173.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.rfe.2014.07.002}
+\begin{itemize}
+    \item Análisis multivariado del desarrollo financiero
+    \item Inclusión de variables macroeconómicas de control
+\end{itemize}
+
+\textbf{6. Botev, J., Égert, B., \& Jawadi, F. (2019).} "The nonlinear relationship between economic growth and financial development: Converging to one or multiple regimes?". \textit{Journal of International Money and Finance}, 90, 44-67.\\
+\textbf{DOI:} \url{https://doi.org/10.1016/j.jimonfin.2018.08.012}
+\begin{itemize}
+    \item Análisis de umbrales en la relación crédito-crecimiento
+    \item Implicaciones para política crediticia
+\end{itemize}
+
+\section{Datos y Metodología Propuesta}
+
+\subsection{Fuentes de Datos}
+Los datos provienen de fuentes oficiales ecuatorianas:
+\begin{itemize}
+    \item \textbf{Banco Central del Ecuador (BCE):} 
+    \begin{itemize}
+        \item PIB Manufacturero trimestral (millones USD 2007)
+        \item Cartera de crédito bancario privado (millones USD)
+        \item PIB total (millones USD 2007)
+        \item Índice de Precios al Consumidor
+    \end{itemize}
+    \item \textbf{Superintendencia de Bancos:} Información crediticia complementaria
+    \item \textbf{Periodicidad:} Trimestral
+    \item \textbf{Período:} 2015Q1 - 2024Q4 (40 observaciones)
+\end{itemize}
+
+\subsection{Variables del Modelo}
+
+\begin{table}[H]
+\centering
+\caption{Definición de Variables del Estudio}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{llll}
+\toprule
+\textbf{Variable} & \textbf{Notación} & \textbf{Descripción} & \textbf{Transformación} \\
+\midrule
+Dependiente & $logPIBMAN_t$ & PIB Manufacturero real & Logaritmo natural \\
+Independiente principal & $logCRED_t$ & Cartera bancaria privada & Logaritmo natural \\
+Control 1 & $logPIB_t$ & PIB total real & Logaritmo natural \\
+Control 2 & $TASA_t$ & Tasa de interés activa & Nivel (porcentaje) \\
+Control 3 & $APERTURA_t$ & Apertura comercial & (X+M)/PIB \\
+Control 4 & $IPC_t$ & Índice de precios & Nivel (base 2014=100) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Especificación del Modelo}
+Siguiendo a Durusu-Ciftci et al. (2017) y Asteriou \& Spanos (2019), el modelo de largo plazo se especifica como:
+
+\begin{equation}
+logPIBMAN_t = \beta_0 + \beta_1 logCRED_t + \beta_2 logPIB_t + \beta_3 TASA_t + \beta_4 APERTURA_t + \beta_5 IPC_t + \varepsilon_t
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $\beta_1$ > 0: Elasticidad manufactura-crédito (esperada entre 0.20-0.40)
+    \item $\beta_2$ > 0: Efecto del crecimiento económico general
+    \item $\beta_3$ < 0: Efecto de la tasa de interés (costo del crédito)
+    \item $\beta_4$ > 0: Efecto de la apertura comercial
+    \item $\beta_5$: Efecto de la inflación (ambiguo teóricamente)
+\end{itemize}
+
+\subsection{Metodología Econométrica Detallada}
+
+\subsubsection{PASO 1: Identificación de Componentes Deterministas}
+\begin{enumerate}
+    \item Regresión auxiliar para cada variable: $y_t = \alpha + \beta t + \varepsilon_t$
+    \item Evaluar significancia estadística de tendencia y constante
+    \item Decisión sobre especificación: \texttt{trend}, \texttt{drift}, o \texttt{noconstant}
+\end{enumerate}
+
+\subsubsection{PASO 2: Análisis de Raíces Unitarias en Niveles}
+\begin{enumerate}
+    \item Test Augmented Dickey-Fuller (ADF)
+    \begin{itemize}
+        \item $H_0$: Serie tiene raíz unitaria
+        \item $H_1$: Serie es estacionaria
+    \end{itemize}
+    \item Test Phillips-Perron (PP)
+    \begin{itemize}
+        \item Corrección no paramétrica para autocorrelación
+    \end{itemize}
+    \item Test KPSS
+    \begin{itemize}
+        \item $H_0$: Serie es estacionaria
+        \item $H_1$: Serie tiene raíz unitaria
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{PASO 3: Verificación del Orden de Integración}
+\begin{enumerate}
+    \item Generar primeras diferencias: $\Delta y_t = y_t - y_{t-1}$
+    \item Aplicar pruebas ADF, PP, KPSS a las diferencias
+    \item Confirmar que las series son I(1)
+\end{enumerate}
+
+\subsubsection{PASO 4: Regresión MCO en Niveles}
+\begin{enumerate}
+    \item Estimar ecuación (1) por Mínimos Cuadrados Ordinarios
+    \item Verificar $R^2$ > 0.70 (requisito mínimo)
+    \item Almacenar residuos para análisis posterior
+\end{enumerate}
+
+\subsubsection{PASO 5: Significancia de los Betas}
+\begin{enumerate}
+    \item Test t individual para cada $\beta_i$
+    \item Test F de significancia conjunta
+    \item Interpretación económica de magnitudes
+\end{enumerate}
+
+\subsubsection{PASO 6: Diagnóstico de Problemas del Modelo}
+\begin{table}[H]
+\centering
+\caption{Pruebas de Diagnóstico}
+\begin{tabular}{lll}
+\toprule
+\textbf{Problema} & \textbf{Test Principal} & \textbf{Test Alternativo} \\
+\midrule
+Heterocedasticidad & Breusch-Pagan & White \\
+Autocorrelación & Breusch-Godfrey LM & Durbin-Watson \\
+Especificación & Ramsey RESET & - \\
+Normalidad & Jarque-Bera & Shapiro-Wilk \\
+Multicolinealidad & VIF & Correlaciones \\
+Estabilidad & CUSUM & CUSUMQ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{PASO 7: Predicción y Análisis de Residuos}
+\begin{enumerate}
+    \item Obtener residuos estimados: $\hat{\varepsilon}_t = logPIBMAN_t - \widehat{logPIBMAN}_t$
+    \item Gráfico temporal de residuos
+    \item Correlograma (ACF y PACF)
+\end{enumerate}
+
+\subsubsection{PASO 8: Test de Cointegración}
+\begin{enumerate}
+    \item ADF sobre residuos con opción \texttt{noconstant}
+    \item PP sobre residuos con opción \texttt{noconstant}
+    \item KPSS sobre residuos
+    \item Si residuos son I(0) → Existe cointegración
+\end{enumerate}
+
+\section{Resultados Esperados}
+
+\subsection{Hipótesis de Trabajo}
+\begin{enumerate}
+    \item \textbf{H1:} Las series $logPIBMAN_t$ y $logCRED_t$ son I(1)
+    \item \textbf{H2:} Existe cointegración entre crédito bancario y PIB manufacturero
+    \item \textbf{H3:} La elasticidad manufactura-crédito es positiva: $\beta_1 \in [0.20, 0.40]$
+    \item \textbf{H4:} La tasa de interés tiene efecto negativo: $\beta_3 < 0$
+    \item \textbf{H5:} Los residuos son estacionarios, confirmando equilibrio de largo plazo
+\end{enumerate}
+
+\subsection{Implicaciones Económicas Esperadas}
+
+Basándonos en Durusu-Ciftci et al. (2017), Ibrahim \& Alagidede (2018), y Tongurai \& Vithessonthi (2018):
+
+\begin{itemize}
+    \item \textbf{Elasticidad crédito-manufactura:} Un incremento del 1\% en el crédito bancario debería generar un aumento entre 0.20\% y 0.40\% en el PIB manufacturero, reflejando el rol del financiamiento en la expansión industrial.
+    
+    \item \textbf{Canal de transmisión:} El crédito facilita la adquisición de capital fijo, financiamiento de capital de trabajo, y modernización tecnológica en el sector manufacturero.
+    
+    \item \textbf{Restricción por tasas:} Tasas de interés elevadas deberían mostrar un efecto negativo significativo, confirmando la sensibilidad del sector al costo del financiamiento.
+    
+    \item \textbf{Complementariedad con apertura:} La apertura comercial debería potenciar el efecto del crédito, facilitando acceso a tecnología e insumos importados.
+\end{itemize}
+
+\section{Cronograma de Actividades}
+
+\begin{table}[H]
+\centering
+\caption{Cronograma Detallado del Estudio}
+\begin{tabular}{lll}
+\toprule
+\textbf{Fase} & \textbf{Actividad Específica} & \textbf{Días} \\
+\midrule
+1 & Descarga y validación de datos del BCE & 2 \\
+2 & Construcción de base integrada y depuración & 1 \\
+3 & Análisis exploratorio y gráficos descriptivos & 2 \\
+4 & Aplicación de pruebas de raíces unitarias & 2 \\
+5 & Estimación del modelo de regresión & 1 \\
+6 & Diagnóstico exhaustivo de supuestos & 3 \\
+7 & Pruebas de cointegración & 1 \\
+8 & Análisis económico de resultados & 2 \\
+9 & Redacción del documento final & 4 \\
+10 & Revisión bibliográfica y formato APA 7 & 2 \\
+\midrule
+& \textbf{Total} & \textbf{20 días} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Referencias Bibliográficas}
+
+\begin{enumerate}
+    \item Asteriou, D., \& Spanos, K. (2019). The relationship between financial development and economic growth during the recent crisis: Evidence from the EU. \textit{Finance Research Letters}, 28, 238-245. DOI: \url{https://doi.org/10.1016/j.frl.2018.05.011}
+    
+    \item Banco Central del Ecuador. (2024). \textit{Cuentas Nacionales Trimestrales}. Recuperado de: \url{https://www.bce.fin.ec/cuentas-nacionales}
+    
+    \item Botev, J., Égert, B., \& Jawadi, F. (2019). The nonlinear relationship between economic growth and financial development: Converging to one or multiple regimes?. \textit{Journal of International Money and Finance}, 90, 44-67. DOI: \url{https://doi.org/10.1016/j.jimonfin.2018.08.012}
+    
+    \item Durusu-Ciftci, D., Ispir, M. S., \& Yetkiner, H. (2017). Financial development and economic growth: Some theory and more evidence. \textit{Journal of Policy Modeling}, 39(2), 290-306. DOI: \url{https://doi.org/10.1016/j.jpolmod.2016.08.001}
+    
+    \item Guru, B. K., \& Yadav, I. S. (2019). Financial development and economic growth: panel evidence from BRICS. \textit{Journal of Economics, Finance and Administrative Science}, 24(47), 113-126. DOI: \url{https://doi.org/10.1108/JEFAS-12-2017-0125}
+    
+    \item Ibrahim, M., \& Alagidede, P. (2018). Effect of financial development on economic growth in sub-Saharan Africa. \textit{Journal of Policy Modeling}, 40(6), 1104-1125. DOI: \url{https://doi.org/10.1016/j.jpolmod.2018.08.001}
+    
+    \item King, R. G., \& Levine, R. (1993). Finance and growth: Schumpeter might be right. \textit{The Quarterly Journal of Economics}, 108(3), 717-737.
+    
+    \item Maridueña, Á. (2024). \textit{Manual de Cointegración en Stata: Caso aplicado PIB y Consumo}. Universidad Estatal de Milagro (UNEMI).
+    
+    \item Pradhan, R. P., Arvin, M. B., Hall, J. H., \& Bahmani, S. (2014). Causal nexus between economic growth, banking sector development, stock market development, and other macroeconomic variables. \textit{Review of Financial Economics}, 23(4), 155-173. DOI: \url{https://doi.org/10.1016/j.rfe.2014.07.002}
+    
+    \item Schumpeter, J. A. (1911). \textit{The Theory of Economic Development}. Harvard University Press.
+    
+    \item Superintendencia de Bancos del Ecuador. (2024). \textit{Portal Estadístico}. Recuperado de: \url{https://estadisticas.superbancos.gob.ec}
+    
+    \item Tongurai, J., \& Vithessonthi, C. (2018). The impact of the banking sector on economic structure and growth. \textit{International Review of Financial Analysis}, 56, 193-207. DOI: \url{https://doi.org/10.1016/j.irfa.2018.01.002}
+\end{enumerate}
+
+\section{Anexo: Código Stata Completo}
+
+\begin{verbatim}
+* ================================================
+* ANÁLISIS DE COINTEGRACIÓN
+* Crédito Bancario y PIB Manufacturero en Ecuador
+* Período: 2015Q1 - 2024Q4
+* ================================================
+
+clear all
+set more off
+cap log close
+log using "credito_manufactura.log", replace
+
+* ================================================
+* SECCIÓN 1: PREPARACIÓN DE DATOS
+* ================================================
+
+* Cargar datos desde Excel
+import excel "datos_ecuador.xlsx", sheet("Trimestral") firstrow clear
+
+* Generar variable de tiempo
+gen time = tq(2015q1) + _n - 1
+format time %tq
+tsset time
+
+* Transformaciones logarítmicas
+gen logPIBMAN = log(PIB_MANUFACTURERO)
+gen logCRED = log(CarteraBancoPrivado)
+gen logPIB = log(PIB)
+
+* Calcular apertura comercial
+gen APERTURA = (EXPORTACIONES_TOTALES + IMPORTACIONES) / PIB
+
+* Etiquetas descriptivas
+label var logPIBMAN "Log PIB Manufacturero"
+label var logCRED "Log Crédito Bancario"
+label var logPIB "Log PIB Total"
+label var TASA "Tasa de Interés Activa"
+label var APERTURA "Apertura Comercial"
+label var IPC "Índice de Precios al Consumidor"
+
+* ================================================
+* SECCIÓN 2: ANÁLISIS DESCRIPTIVO
+* ================================================
+
+* Estadísticas descriptivas
+summarize logPIBMAN logCRED logPIB TASA APERTURA IPC, detail
+
+* Matriz de correlaciones
+correlate logPIBMAN logCRED logPIB TASA APERTURA IPC
+
+* Gráfico de series en niveles
+tsline logPIBMAN logCRED, ///
+    title("PIB Manufacturero y Crédito Bancario") ///
+    legend(order(1 "PIB Manufacturero" 2 "Crédito"))
+
+* ================================================
+* PASO 1: IDENTIFICACIÓN DE COMPONENTES
+* ================================================
+
+gen t = _n
+
+* Evaluar tendencia determinista
+foreach var in logPIBMAN logCRED logPIB {
+    quietly reg `var' t
+    display "Variable: `var'"
+    test t
+}
+
+* ================================================
+* PASO 2: PRUEBAS DE RAÍZ UNITARIA EN NIVELES
+* ================================================
+
+* Variable dependiente
+display "=== PRUEBAS PARA logPIBMAN ==="
+dfuller logPIBMAN, trend
+pperron logPIBMAN, trend
+kpss logPIBMAN, trend
+
+* Variable independiente principal
+display "=== PRUEBAS PARA logCRED ==="
+dfuller logCRED, trend
+pperron logCRED, trend
+kpss logCRED, trend
+
+* Variables de control
+foreach var in logPIB TASA APERTURA IPC {
+    display "=== PRUEBAS PARA `var' ==="
+    dfuller `var', trend
+    pperron `var', trend
+    kpss `var', trend
+}
+
+* ================================================
+* PASO 3: VERIFICACIÓN EN PRIMERAS DIFERENCIAS
+* ================================================
+
+* Generar diferencias
+gen d_logPIBMAN = D.logPIBMAN
+gen d_logCRED = D.logCRED
+gen d_logPIB = D.logPIB
+gen d_TASA = D.TASA
+gen d_APERTURA = D.APERTURA
+gen d_IPC = D.IPC
+
+* Evaluar componente determinista en diferencias
+foreach var in d_logPIBMAN d_logCRED {
+    quietly reg `var' t
+    display "Diferencia de `var'"
+    test t
+}
+
+* Tests en diferencias
+display "=== PRUEBAS EN DIFERENCIAS ==="
+foreach var in d_logPIBMAN d_logCRED d_logPIB {
+    display "Variable: `var'"
+    dfuller `var', drift
+    pperron `var', drift
+    kpss `var', drift
+}
+
+* ================================================
+* PASO 4: REGRESIÓN MCO EN NIVELES
+* ================================================
+
+reg logPIBMAN logCRED logPIB TASA APERTURA IPC
+
+* Guardar resultados clave
+scalar R2 = e(r2)
+scalar R2_adj = e(r2_a)
+scalar F_stat = e(F)
+scalar N_obs = e(N)
+scalar DW = e(dw)
+
+display "========================================"
+display "RESULTADOS PRINCIPALES DEL MODELO:"
+display "R-cuadrado: " R2
+display "R-cuadrado ajustado: " R2_adj
+display "Estadístico F: " F_stat
+display "Observaciones: " N_obs
+display "========================================"
+
+* ================================================
+* PASO 5: SIGNIFICANCIA DE LOS BETAS
+* ================================================
+
+* Test de significancia individual (automático en reg)
+* Test de significancia conjunta
+test logCRED logPIB TASA APERTURA IPC
+
+* Test de hipótesis específicas
+test logCRED = 0  // H0: No hay efecto del crédito
+test TASA < 0     // H0: Tasa no tiene efecto negativo
+
+* ================================================
+* PASO 6: DIAGNÓSTICO DE PROBLEMAS
+* ================================================
+
+display "=== DIAGNÓSTICO DEL MODELO ==="
+
+* 6.1 Heterocedasticidad
+display "--- Test de Heterocedasticidad ---"
+estat hettest
+estat imtest, white
+
+* 6.2 Autocorrelación
+display "--- Test de Autocorrelación ---"
+estat bgodfrey, lags(1/4)
+estat dwatson
+
+* 6.3 Especificación
+display "--- Test de Especificación ---"
+estat ovtest
+
+* 6.4 Normalidad
+display "--- Test de Normalidad ---"
+predict res1, resid
+swilk res1
+sktest res1
+qnorm res1
+
+* 6.5 Multicolinealidad
+display "--- Test de Multicolinealidad ---"
+vif
+
+* 6.6 Estabilidad estructural
+display "--- Test de Estabilidad ---"
+estat sbcusum
+
+* ================================================
+* PASO 7: PREDICCIÓN Y ANÁLISIS DE RESIDUOS
+* ================================================
+
+predict ehat, resid
+
+* Gráfico de residuos
+tsline ehat, ///
+    title("Residuos del Modelo") ///
+    yline(0, lcolor(red) lpattern(dash)) ///
+    ytitle("Residuos") xtitle("Tiempo")
+
+* Correlograma de residuos
+ac ehat, lags(12) title("Función de Autocorrelación")
+pac ehat, lags(12) title("Función de Autocorrelación Parcial")
+
+* ================================================
+* PASO 8: TEST DE COINTEGRACIÓN (RESIDUOS)
+* ================================================
+
+display "========================================"
+display "TEST DE COINTEGRACIÓN - RESIDUOS"
+display "========================================"
+
+* Pruebas sobre residuos (sin constante ni tendencia)
+dfuller ehat, noconstant
+pperron ehat, noconstant
+kpss ehat, noconstant
+
+* Interpretación
+display "========================================"
+display "INTERPRETACIÓN:"
+display "Si residuos son I(0) → Existe cointegración"
+display "Si residuos son I(1) → No hay cointegración"
+display "========================================"
+
+* ================================================
+* GRÁFICOS ADICIONALES
+* ================================================
+
+* Relación bivariada principal
+scatter logPIBMAN logCRED || lfit logPIBMAN logCRED, ///
+    title("Relación PIB Manufacturero - Crédito") ///
+    xtitle("Log Crédito Bancario") ///
+    ytitle("Log PIB Manufacturero") ///
+    legend(off)
+
+* Series normalizadas para comparación
+egen z_logPIBMAN = std(logPIBMAN)
+egen z_logCRED = std(logCRED)
+
+twoway (tsline z_logPIBMAN) (tsline z_logCRED), ///
+    title("Series Normalizadas") ///
+    legend(order(1 "PIB Manufacturero" 2 "Crédito"))
+
+* ================================================
+* TABLA RESUMEN DE RESULTADOS
+* ================================================
+
+* Exportar resultados a Word
+quietly reg logPIBMAN logCRED logPIB TASA APERTURA IPC
+outreg2 using "resultados_credito_manufactura.doc", ///
+    replace word ///
+    title("Modelo de Cointegración: Crédito y Manufactura") ///
+    addstat(R-squared, e(r2), ///
+            R-squared Adj, e(r2_a), ///
+            F-statistic, e(F), ///
+            Observations, e(N)) ///
+    dec(4)
+
+* ================================================
+* ANÁLISIS DE ROBUSTEZ
+* ================================================
+
+* Modelo alternativo sin IPC
+reg logPIBMAN logCRED logPIB TASA APERTURA
+predict ehat2, resid
+dfuller ehat2, noconstant
+
+* Modelo con interacciones
+gen logCRED_APERTURA = logCRED * APERTURA
+reg logPIBMAN logCRED logPIB TASA APERTURA logCRED_APERTURA
+predict ehat3, resid
+dfuller ehat3, noconstant
+
+log close
+* ================================================
+* FIN DEL ANÁLISIS
+* ================================================
+\end{verbatim}
+
+\end{document}
